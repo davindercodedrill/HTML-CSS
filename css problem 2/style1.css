@@ -1,0 +1,100 @@
+body{
+    
+    margin:0;
+    
+}
+.header{
+    display:flex;
+    background-color:black;
+    justify-content: end; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+ }
+
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 17px;
+    text-decoration: none;
+    
+  }
+  
+.header_bar{
+    background-color: white;
+   display:flex;
+   justify-content:center;
+}
+
+.sign_in_btn{
+    color:white;
+    border-radius: 20px;
+    background-color:#0076FF;
+    padding:10px 20px;
+    margin-left:9em;
+    font-style: bold;
+    display:flex;
+    margin-top:10px;
+    
+}
+.poster{
+    background-image:url('./images/category.jpg');
+    background-size: 100% 100%;
+    width:100% 100%;
+    height: 400px;
+    text-align: center;
+    font-size: x-large;
+    color:#333232;
+    font-family: system-ui;
+    display: flex;
+    justify-content:center;
+     align-items: center;
+}
+.menu_items ul li{
+    float: left;
+    display: block;
+    text-align: right;
+    padding: 16px;  
+}
+.mini_navbar{
+display:flex;
+justify-content:center;
+ align-items: center;
+ justify-content:space-evenly;
+ background-color: whitesmoke;
+ margin:0px 25px;
+ 
+}
+.mini_navbar ul li{
+    display: block;
+    text-align: right;
+    padding: 16px;
+    text-decoration: none;
+    color:grey;
+}
+.catorigi{
+    width:7em;
+    border-color: white;
+    background-color: white;
+    padding:4px;
+}
+.row{
+    display:flex;
+    justify-content:center;
+}
+.box{
+    margin-left:2em;
+    margin-top: 2em;
+}
+.discription{
+    margin-left:2em;
+}

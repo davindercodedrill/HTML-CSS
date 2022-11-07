@@ -1,0 +1,300 @@
+body{
+    
+    margin:0;
+}
+.container{
+    top: 0px;
+left: 0px;
+/* width: 1920px; */
+/* height: 3585px; */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.header{
+    background-color: whitesmoke;
+     width:100%;
+     height:100px;  
+     display:flex;
+     
+}
+.image{
+    top: 30px;
+    left: 80px;
+    width: 50%;
+    height: 11px;
+background: transparent url('img/NS logos2.png') 0% 0% no-repeat padding-box;opacity: 1;
+
+   
+}
+.navbar{
+    margin-top:30px;
+    margin-left: 200px;
+    width: 50%;
+    background: transparent url('img/Group 2.png') 0% 0% no-repeat padding-box; opacity: 1;
+    font-family: system-ui;
+    font-weight: bold;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color:rgb(48, 48, 53);
+}
+.navbar td{
+        padding: 0.5em;
+        padding-right: 1em;
+
+}
+
+
+.section{
+    color:white;
+    font-family: system-ui;
+    background-image:url('./images/home_banner.png');
+    background-size: 100% 100%;
+    height: 500px;
+    
+   
+}
+.section h2 {
+    font-size:45px;
+    padding:30px;
+    margin-top:-20px;
+    left: 87px;
+    width: 939px;
+    
+}
+.section h5 {
+    font-size:20px;
+    text-align: right;
+    padding-right: 10px;
+    color:white;
+    
+    
+}
+.section p{
+    padding:20px;
+    width: 869px;
+    height: 36px;
+}
+
+.content{
+display:flex;
+}
+.left{
+    margin:35px;
+    color:rgb(72, 77, 87);
+    font-family: system-ui;
+    width:50%;
+    justify-content: center;
+}
+.right{
+    margin-top: 100px;
+    padding:70px;
+    color:rgb(72, 77, 87);
+    font-family: system-ui;
+    background-color:whitesmoke;
+    width:auto;
+    height:400px;
+    
+}
+.right li{
+    font-size:18px;
+    display:block;
+}
+
+ul li::before {
+    content: "\2022";
+    color: rgb(28, 129, 196);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -19px;
+    font-size: 30px;
+  }
+  
+.footer{
+    background-color: #0076FF;
+    background-image:url('./images/Rectangle\ 8.svg');
+    background-size: 100% 100%;
+    text-align: center;
+    padding:50px;
+    
+
+}
+.image2{
+    background-image:url('./images/Mask\ Group\ 2@2x.png');
+    background-size: 100% 100%;
+    height: 450px;
+    text-align:right;
+    display:flex;
+    justify-content: end;
+
+}
+.down{
+    text-align: center;
+    font-family: system-ui;
+    color:#333232;
+   
+}.down p{
+    text-align: justify;
+    font-family: system-ui;
+    margin:auto;
+    width:60%;
+    font-size: 22px;
+}
+.feedback{
+    background-image:url('./images/feedback.png');
+    background-size: 100% 100%;
+    height: 500px;
+    text-align: center;
+    font-size: x-large;
+    color:#333232;
+    font-family: system-ui;
+  
+  display: flex;
+  justify-content:center;
+  align-items: center;
+ 
+  
+}
+
+.btn{
+    text-align: right;
+    margin-right: 15em;
+
+}
+.btn a{
+    text-decoration: none;
+    width:50%;
+    font-weight: bold;
+    font-family: system-ui;
+    margin: 0px 2px;
+}
+.text{
+    color: white;
+    width:50%;
+    margin: 0px -103px;
+    text-align:justify;
+
+}
+.text h1{
+    font-family: system-ui;
+}
+.carosoul{ 
+    font-family: system-ui;
+    background-image:url('./images/services.png');
+    background-size: 100% 100%;
+    height: 500px;
+    text-align: center;  
+    display: flex;
+   justify-content:center;
+   align-items: center;
+
+
+}
+.section2{
+    font-size: x-large;
+    color:#333232;
+    width: 1250px;
+}
+.line1{
+    text-align:center;
+    color:#333232;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.boxes{
+    width:100% 100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+.box1{
+background-color: whitesmoke;
+margin-left: 20px;
+height: 29em;
+width: 55%;
+font-family: system-ui;
+border-radius: 20px;
+
+}
+.box1 p{
+    font-size: 20px;
+    margin-left:20px;
+    padding:20px;
+    
+    color: #333232;
+}
+.box1 ul li{
+    font-size: 17px;
+    margin-left:30px;
+    color: #333232;
+    list-style-type: none;
+
+}
+
+.box2{
+    background-color: whitesmoke;
+    margin-left: 20px;
+    height: 29em;
+    font-family: system-ui;
+    width: 55%; 
+    border-radius: 20px;
+}
+.box2 p{
+    font-size: 20px;
+    margin-left:20px;
+    padding:20px;
+    
+    color: #333232;
+}
+.box2 ul li{
+    font-size: 17px;
+    margin-left:30px;
+    color: #333232;
+    list-style-type: none;
+    text-align: justify;
+
+}
+.btn2{
+    text-align:center;
+    font-style: bold;
+    margin:20px 20px;
+    
+   
+}
+.btn2 a{
+    text-decoration: none;
+    
+    
+}
+.line1_feedback{
+    text-align:center;
+    color:#333232;
+    font-family:system-ui;
+}
+.hr{
+    width:52em;
+}
+.p_feedaback{
+    text-align: justify;
+    font-family: system-ui;
+    margin:auto;
+    width:60%;
+    font-size: 29px;
+    color:#333232;
+    font-size:17px;
+    font-style:italic;
+}
+.author{
+    color:#0076FF;
+    font-family: system-ui;
+    margin-left:42em;
+}
+
+
+
+
+
+
+
+
